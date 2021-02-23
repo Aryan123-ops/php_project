@@ -64,7 +64,7 @@ return $data;
 
 <h2>Information Form</h2>
 <p><span class="error">* Required</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" >
+<form method="post" action="db.php" >
 Name: <input type="text" name="name" >
 <span class="error">* <?php echo $nameErr;?></span>
 <br><br>
@@ -101,7 +101,7 @@ echo $comment;
 echo "<br>";
 echo $gender;
 echo "<br>";
-echo $maritlstats;
+//echo $maritlstats;
 echo "<br>";
 
 ?> 
